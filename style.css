@@ -1,0 +1,95 @@
+
+#menu { /*dit gebruik ik niet maar dit moet er zijn */
+  width: 1px;
+  height: 1000px;
+  float: left;
+  outline: 1px solid black;
+  background-color: lightblue;
+}
+#kop {
+  width: 1400px;
+  height: 200px;
+  float: left;
+  outline: 1px solid black;
+  background-color: rgb(34,155,16);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:175px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#inhoud {
+  width: 1100px;
+  height: 950px;
+  float: left;
+  outline: 1px solid black;
+  background-color: rgb(153,216,112);
+  font-family: Arial, Helvetica, sans-serif;
+    font-size:50px;
+  text-align: center;
+  font-weight: bold;
+  background-image: url(geldvallend.png);
+  opacity: 1; /* lichter maken*/
+}
+#zijbalk {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:30px;
+  text-align: center;
+  font-weight: bold;
+  width: 300px;
+  height: 950px;
+  float: left;
+  outline: 1px solid black;
+/*   background-color: mediumaquamarine; */
+  background-image: url(euro1002.jpg);
+  opacity: 1;
+  
+}
+#tekst1{
+  font-family: Arial, Helvetica, sans-serif; 
+    font-size:30px;
+  text-align: left;
+  font-weight 1;
+
+}
+li.menukeuze { /* alleen voor links in de menu: */
+  display: block; /* knopje van maken */
+  margin: 150x 0px 0px 0px;
+  padding: 36px; /* blokjes uitelkaar */
+}
+ul.menulijst { /* alleen voor lijsten in het menu: */
+  font-family: Arial, Helvetica, sans-serif; 
+  font-size:20px; 
+  text-align: center;
+  font-weight: bold; /* Tekst dik maken */
+  padding: 0px;
+  width: 300px; 
+  position: relative; 
+  list-style-type: none;
+  margin: 50px 0px 475px 0px;
+  
+}
+#body {
+width: 100%; 
+height: 100%;
+min-height: 1150px;
+min-width: 1400px;
+max-height: 1150px;
+min-width: 1400px;
+}
+
+
+a {
+    color: #0B1B2D; /* text zijbalk rood baken */
+    text-decoration: none; /* geen lijn onder link */
+    font-weight: bold; /* tekst dik maken */
+    font-size: 30px;
+}
+
+img.bugatti{
+  width: 1202px;
+  height: 662px; 
+  padding-down: 300px; /* foto naar boven */
+  padding-right: 50px;
+}
